@@ -1,0 +1,24 @@
+header {
+  height: 500px;
+  background: rgb(232, 238, 243);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  h1 {
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 4px;
+
+    color: var(--base-color);
+  }
+  p {
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 20px;
+
+    color: var(--base-color2);
+  }
+}

@@ -1,0 +1,45 @@
+.container {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  max-width: 1180px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  .card {
+    width: 400px;
+    gap: 12px;
+    display: flex;
+    padding: 0 10px 0 0;
+    border-radius: 15px;
+    background-color: var(--base-color2);
+
+    .content-img {
+      width: 180px;
+      height: 180px;
+
+        img {
+          width: 180px;
+          height: 180px;
+          object-fit: cover;
+          border-radius: 15px 0 0 15px;
+        }
+    }
+    .content-description {
+      margin-top: 20px;
+      h1 {
+        font-size: 1.4rem;
+      }
+      p {
+        font-weight: 600;
+        font-size: .8rem;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
