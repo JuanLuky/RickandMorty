@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <header>
-      <h1>Rick e Morty</h1>
-      <p>PERSONAGENS</p>
+      <h1>Hugo e Danillo</h1>
+      <p>Rick e Morty</p>
     </header>`,
   styleUrl: './header.component.scss',
 })
